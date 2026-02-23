@@ -12,9 +12,9 @@ Penjelasan Metode Intersection Dua Array :
 3.	Total Waktu: O(n+m), jauh lebih cepat daripada menggunakan loop bersarang (nested loop) O(n x m)
 
 Penjelasan Anagram Check:
-•	Fungsi ini membersihkan string dari spasi dan mengubahnya menjadi huruf kecil agar pengecekan konsisten.
-•	Dictionary (char_count) menyimpan karakter sebagai kunci dan jumlah kemunculannya sebagai nilai.
-•	Kedua string dibandingkan frekuensi karakternya; jika sama persis, maka anagram
+1.	Fungsi ini membersihkan string dari spasi dan mengubahnya menjadi huruf kecil agar pengecekan konsisten.
+2.	Dictionary (char_count) menyimpan karakter sebagai kunci dan jumlah kemunculannya sebagai nilai.
+3.	Kedua string dibandingkan frekuensi karakternya; jika sama persis, maka anagram
 
 Penjelasan First Recurring Character:
 1.	seen_characters = set(): Membuat set kosong. Set dipilih karena pencarian (char in seen_characters) memiliki kecepatan rata-rata O(1), menjadikannya sangat efisien.
